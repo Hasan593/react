@@ -3,7 +3,8 @@
 // import Counter from "../components/react/Counter";
 // import Toolbar from "../components/react/Toolbar";
 
-import UseMemo_Layout from "../components/useCallback_useMemo_memo/UseMemo_Layout"
+import CustomLayout from "../components/customHook/CustomLayout"
+// import UseMemo_Layout from "../components/useCallback_useMemo_memo/UseMemo_Layout"
 
 // import Context from "../components/context/context";
 // import UseRef from "../components/useRef/UseRef";
@@ -26,7 +27,8 @@ function App() {
       {/* <Context /> */}
 
       {/* <UseRef /> */}
-        <UseMemo_Layout />
+      {/* <UseMemo_Layout /> */}
+      <CustomLayout />
     </>
   )
 }
