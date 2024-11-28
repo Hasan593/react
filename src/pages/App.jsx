@@ -3,7 +3,9 @@
 // import Counter from "../components/react/Counter";
 // import Toolbar from "../components/react/Toolbar";
 
-import CustomLayout from "../components/customHook/CustomLayout"
+import AxiosLayout from "../components/axios/hook/AxiosLayout"
+
+// import CustomLayout from "../components/customHook/CustomLayout"
 // import UseMemo_Layout from "../components/useCallback_useMemo_memo/UseMemo_Layout"
 
 // import Context from "../components/context/context";
@@ -28,7 +30,8 @@ function App() {
 
       {/* <UseRef /> */}
       {/* <UseMemo_Layout /> */}
-      <CustomLayout />
+      {/* <CustomLayout /> */}
+      <AxiosLayout />
     </>
   )
 }
