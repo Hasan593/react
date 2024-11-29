@@ -10,12 +10,12 @@ const AxiosLayout = () => {
     };
 
     // const { postData, postLoading, postError } = usePostAxios('/posts', reqData); // post data
-    const { postData, postLoading, postError } = usePostAxios('/posts/1', reqData); // Update data
+    const { postData, postLoading, postError } = usePostAxios('/posts/1', reqData); // Update data + Patch Data + Interceptor Data
     console.log(postData);
     console.log(postLoading);
     console.log(postError);
 
-    const { data, loading, error } = useFetchAxios('/users');
+    const { data, loading, error } = useFetchAxios('/users'); // Fetch Data
     console.log(data);
     console.log(loading);
     console.log(error);

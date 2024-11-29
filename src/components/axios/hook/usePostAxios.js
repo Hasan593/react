@@ -37,12 +37,48 @@ export const usePostAxios = (url, data) => {
     // }, [url]);
 
     /********************* Patch Data *******************/
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await axios.patch(url, data, {headers: {'privicy' : 'Md Hasan Uddin'}});
+    //             setPostData(response.data);
+    //             setPostLoading(false);
+    //         } catch (error) {
+    //             setPostLoading(false);
+    //             setPostError(error.message);
+    //         }
+    //     };
+    //     fetchData();
+    // }, [url]);
+
+    /********************* Interceptors Data *******************/
     useEffect(() => {
         const fetchData = async () => {
+            axios.interceptors.request.use(
+                function (config) {
+                    // console.log(config)
+                    config.headers['Authorization'] = 'Bearer Md + Hasan + Uddin';
+                    return config;
+                },
+                function (error) {
+                    console.log('error in patch');
+                    return Promise.reject(error);
+                }
+            );
+            axios.interceptors.response.use(
+                response => {
+                    response.headers['Auth'] = 'Only Hasan';
+                    console.log(response)
+                    return response
+                },
+                error => {
+                    console.log(error.message)
+                }
+            )
             try {
-                const response = await axios.patch(url, data, {headers: {'privicy' : 'Md Hasan Uddin'}});
-                setPostData(response.status);
-                setPostLoading(false);
+                const response = await axios.patch(url, data);
+                setPostData(response.data);
+                setPostLoading(false)
             } catch (error) {
                 setPostLoading(false);
                 setPostError(error.message);
