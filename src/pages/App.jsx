@@ -3,7 +3,13 @@
 // import Counter from "../components/react/Counter";
 // import Toolbar from "../components/react/Toolbar";
 
-import AxiosLayout from "../components/axios/hook/AxiosLayout"
+// import RouterBrowser from "../components/react-router/RouterBrowser"
+import RouterQuery from "../components/react-query/RouterQuery"
+
+
+// import RouterLayout from "../components/react-router/RouterLayout"
+
+// import AxiosLayout from "../components/axios/hook/AxiosLayout"
 
 // import CustomLayout from "../components/customHook/CustomLayout"
 // import UseMemo_Layout from "../components/useCallback_useMemo_memo/UseMemo_Layout"
@@ -31,7 +37,10 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseMemo_Layout /> */}
       {/* <CustomLayout /> */}
-      <AxiosLayout />
+      {/* <AxiosLayout /> */}
+      {/* <RouterLayout /> */}
+      {/* <RouterBrowser /> */}
+      <RouterQuery />
     </>
   )
 }

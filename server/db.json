@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "Name": "MD Hasan Uddin",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "title": "তৃতীয় ব্লগ পোস্ট",
+      "content": "এই পোস্টে নতুন টেকনোলজির আলোচনা করা হয়েছে।",
+      "author_id": 3,
+      "created_at": "2024-11-27T14:45:00Z",
+      "likes": 30
+    },
+    {
+      "id": "4",
+      "title": "চতুর্থ ব্লগ পোস্ট",
+      "content": "শখের বাগান নিয়ে কিছু টিপস।",
+      "author_id": 1,
+      "created_at": "2024-11-26T16:15:00Z",
+      "likes": 20
+    },
+    {
+      "id": "5",
+      "title": "পঞ্চম ব্লগ পোস্ট",
+      "content": "ভ্রমণের অভিজ্ঞতা শেয়ার করা হলো।",
+      "author_id": 4,
+      "created_at": "2024-11-25T18:00:00Z",
+      "likes": 40
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "মোঃ হাসান উদ্দিন",
+      "email": "hasan@example.com",
+      "joined_at": "2024-10-01T09:00:00Z"
+    },
+    {
+      "name": "হাসান উদ্দিন",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "মাহিন রায়",
+      "email": "mahin@example.com",
+      "joined_at": "2024-09-15T11:30:00Z"
+    },
+    {
+      "id": "4",
+      "name": "আসিফ হোসেন",
+      "email": "asif@example.com",
+      "joined_at": "2024-09-20T14:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "সাদিয়া ইসলাম",
+      "email": "sadia@example.com",
+      "joined_at": "2024-08-25T13:15:00Z"
+    },
+    {
+      "id": "6",
+      "name": "মোঃ হাসান ুউদ্দিন",
+      "email": "mdhasanuddin593@gmail.com",
+      "joined_at": "2024-10-01T09:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "user_id": 1,
+      "message": "আপনার পোস্টে একটি নতুন লাইক এসেছে।",
+      "created_at": "2024-11-29T11:00:00Z",
+      "read": false
+    },
+    {
+      "id": "2",
+      "user_id": 2,
+      "message": "কেউ আপনার পোস্টে মন্তব্য করেছে।",
+      "created_at": "2024-11-29T09:30:00Z",
+      "read": true
+    },
+    {
+      "id": "3",
+      "user_id": 3,
+      "message": "আপনার প্রোফাইল আপডেট সম্পন্ন হয়েছে।",
+      "created_at": "2024-11-28T08:45:00Z",
+      "read": false
+    },
+    {
+      "id": "4",
+      "user_id": 4,
+      "message": "নতুন ফলোয়ার এসেছে।",
+      "created_at": "2024-11-27T07:15:00Z",
+      "read": false
+    },
+    {
+      "id": "5",
+      "user_id": 5,
+      "message": "আপনার পোস্টে একটি নতুন শেয়ার হয়েছে।",
+      "created_at": "2024-11-26T06:00:00Z",
+      "read": true
+    }
+  ]
+}
