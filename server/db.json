@@ -1,32 +1,14 @@
 {
   "posts": [
     {
-      "Name": "MD Hasan Uddin",
-      "id": "1"
+      "id": "1",
+      "title": "Histry",
+      "content": "s"
     },
     {
-      "id": "3",
-      "title": "তৃতীয় ব্লগ পোস্ট",
-      "content": "এই পোস্টে নতুন টেকনোলজির আলোচনা করা হয়েছে।",
-      "author_id": 3,
-      "created_at": "2024-11-27T14:45:00Z",
-      "likes": 30
-    },
-    {
-      "id": "4",
-      "title": "চতুর্থ ব্লগ পোস্ট",
-      "content": "শখের বাগান নিয়ে কিছু টিপস।",
-      "author_id": 1,
-      "created_at": "2024-11-26T16:15:00Z",
-      "likes": 20
-    },
-    {
-      "id": "5",
-      "title": "পঞ্চম ব্লগ পোস্ট",
-      "content": "ভ্রমণের অভিজ্ঞতা শেয়ার করা হলো।",
-      "author_id": 4,
-      "created_at": "2024-11-25T18:00:00Z",
-      "likes": 40
+      "id": "2",
+      "title": "Histry",
+      "content": "y"
     }
   ],
   "users": [

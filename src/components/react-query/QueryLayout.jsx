@@ -56,7 +56,6 @@ const QueryLayout = () => {
                 </NavLink>
             </nav>
 
-
             <QueryClientProvider client={queryClient}>
                 <Routes>
                     <Route path="/" element={<Home />} />
