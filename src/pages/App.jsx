@@ -3,8 +3,10 @@
 // import Counter from "../components/react/Counter";
 // import Toolbar from "../components/react/Toolbar";
 
+import FormLayout from "../components/form/FormLayout"
+
 // import RouterBrowser from "../components/react-router/RouterBrowser"
-import RouterQuery from "../components/react-query/RouterQuery"
+// import RouterQuery from "../components/react-query/RouterQuery"
 
 
 // import RouterLayout from "../components/react-router/RouterLayout"
@@ -40,7 +42,8 @@ function App() {
       {/* <AxiosLayout /> */}
       {/* <RouterLayout /> */}
       {/* <RouterBrowser /> */}
-      <RouterQuery />
+      {/* <RouterQuery /> */}
+      <FormLayout />
     </>
   )
 }
