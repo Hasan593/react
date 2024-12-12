@@ -3,11 +3,11 @@
 // import Counter from "../components/react/Counter";
 // import Toolbar from "../components/react/Toolbar";
 
-import LazyLayout from "../components/lazyLoading/LazyLayout"
+// import LazyLayout from "../components/lazyLoading/LazyLayout"
 
 // import FormLayout from "../components/form/FormLayout"
 
-// import RouterBrowser from "../components/react-router/RouterBrowser"
+import RouterBrowser from "../components/react-router/RouterBrowser"
 // import RouterQuery from "../components/react-query/RouterQuery"
 
 
@@ -43,10 +43,10 @@ function App() {
       {/* <CustomLayout /> */}
       {/* <AxiosLayout /> */}
       {/* <RouterLayout /> */}
-      {/* <RouterBrowser /> */}
+      <RouterBrowser />
       {/* <RouterQuery /> */}
       {/* <FormLayout /> */}
-      <LazyLayout />
+      {/* <LazyLayout /> */}
     </>
   )
 }
